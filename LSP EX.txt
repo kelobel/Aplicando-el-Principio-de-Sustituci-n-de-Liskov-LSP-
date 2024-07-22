@@ -1,0 +1,5 @@
+Las clases derivadas OnlineCourse, OfflineCourse y HybridCourse siguen al 
+principio LSP porque pueden usarse en lugar de la clase base 
+Course sin afectar el comportamiento del programa. Esto se logra gracias a que todas las clases 
+implementan los métodos Subscribe y GetCourseDetails de la clase base de 
+manera consistente.
